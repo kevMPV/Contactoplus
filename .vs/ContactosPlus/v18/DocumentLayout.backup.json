@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\iedep\\Documents\\NetCore\\ContactoPlus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16FAB72D-FBD5-42DC-B725-8112A14175C3}|ContactosPlus.csproj|c:\\users\\iedep\\documents\\netcore\\contactoplus\\frmdirectoriotelefonico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16FAB72D-FBD5-42DC-B725-8112A14175C3}|ContactosPlus.csproj|solutionrelative:frmdirectoriotelefonico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16FAB72D-FBD5-42DC-B725-8112A14175C3}|ContactosPlus.csproj|c:\\users\\iedep\\documents\\netcore\\contactoplus\\misfunciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16FAB72D-FBD5-42DC-B725-8112A14175C3}|ContactosPlus.csproj|solutionrelative:misfunciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16FAB72D-FBD5-42DC-B725-8112A14175C3}|ContactosPlus.csproj|c:\\users\\iedep\\documents\\netcore\\contactoplus\\frmdirectoriotelefonico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16FAB72D-FBD5-42DC-B725-8112A14175C3}|ContactosPlus.csproj|solutionrelative:frmdirectoriotelefonico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16FAB72D-FBD5-42DC-B725-8112A14175C3}|ContactosPlus.csproj|c:\\users\\iedep\\documents\\netcore\\contactoplus\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16FAB72D-FBD5-42DC-B725-8112A14175C3}|ContactosPlus.csproj|solutionrelative:frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16FAB72D-FBD5-42DC-B725-8112A14175C3}|ContactosPlus.csproj|c:\\users\\iedep\\documents\\netcore\\contactoplus\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16FAB72D-FBD5-42DC-B725-8112A14175C3}|ContactosPlus.csproj|solutionrelative:frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmDirectorioTelefonico.cs",
+              "DocumentMoniker": "C:\\Users\\iedep\\Documents\\NetCore\\ContactoPlus\\FrmDirectorioTelefonico.cs",
+              "RelativeDocumentMoniker": "FrmDirectorioTelefonico.cs",
+              "ToolTip": "C:\\Users\\iedep\\Documents\\NetCore\\ContactoPlus\\FrmDirectorioTelefonico.cs",
+              "RelativeToolTip": "FrmDirectorioTelefonico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T23:33:29.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\iedep\\Documents\\NetCore\\ContactoPlus\\frmLogin.cs",
+              "RelativeDocumentMoniker": "frmLogin.cs",
+              "ToolTip": "C:\\Users\\iedep\\Documents\\NetCore\\ContactoPlus\\frmLogin.cs",
+              "RelativeToolTip": "frmLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T22:16:06.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MisFunciones.cs",
+              "DocumentMoniker": "C:\\Users\\iedep\\Documents\\NetCore\\ContactoPlus\\MisFunciones.cs",
+              "RelativeDocumentMoniker": "MisFunciones.cs",
+              "ToolTip": "C:\\Users\\iedep\\Documents\\NetCore\\ContactoPlus\\MisFunciones.cs",
+              "RelativeToolTip": "MisFunciones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T22:43:43.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmDirectorioTelefonico.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\iedep\\Documents\\NetCore\\ContactoPlus\\FrmDirectorioTelefonico.cs",
+              "RelativeDocumentMoniker": "FrmDirectorioTelefonico.cs",
+              "ToolTip": "C:\\Users\\iedep\\Documents\\NetCore\\ContactoPlus\\FrmDirectorioTelefonico.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FrmDirectorioTelefonico.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T22:10:20.585Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\iedep\\Documents\\NetCore\\ContactoPlus\\frmLogin.cs",
+              "RelativeDocumentMoniker": "frmLogin.cs",
+              "ToolTip": "C:\\Users\\iedep\\Documents\\NetCore\\ContactoPlus\\frmLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "frmLogin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T22:09:48.171Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
