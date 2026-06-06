@@ -38,6 +38,14 @@ namespace ContactosPlus
                 error.SetError(txtApellidos, "ingresa tus apellidos");
             }
 
+
+            Directorio obj = new Directorio();
+            int id= Convert.ToInt32(txtId.Text);
+            
+            obj.add(id, nombre, apellidos, ...);
+            obj.show()
+             MessageBox.Show("Texto");
+
         }
 
         private void btnEditar_Click(object sender, EventArgs e)
