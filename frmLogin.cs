@@ -16,7 +16,7 @@ namespace ContactosPlus
             {
                 if (password.Length > 0)
                 {
-                    if(usuario=="eve" && password == "1406")
+                    if (usuario == "eve" && password == "1406")
                     {
                         //Abrimos la sigiente ventana (FmrDirectorioTelefonico)
                         // MisFunciones.MensajeAlerta("Bienvenido al sistema");
@@ -26,24 +26,33 @@ namespace ContactosPlus
                         obj.Show();//mostrar contactos
                         obj.FormClosed += (s, args) => this.Show();
                     }
-                    else {
+                    else
+                    {
                         MisFunciones.MensajeAlerta("verifica tus datos");
                         txtUsuario.Text = "";
                         txtPassword.Text = "";
                         txtUsuario.Focus();
-;                    }
+                        ;
+                    }
                 }
-                else {
+                else
+                {
                     MisFunciones.MensajeAlerta("Escribe tu contraseña");
                     txtPassword.Focus();
                 }
-               
+
             }
-            else {
+            else
+            {
                 MisFunciones.MensajeAlerta("Agrga tu usuario");
                 txtUsuario.Focus();
             }
-           
+
+        }
+
+        private void txtUsuario_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\iedep\\Documents\\NetCore\\ContactoPlus\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16FAB72D-FBD5-42DC-B725-8112A14175C3}|ContactosPlus.csproj|c:\\users\\iedep\\documents\\netcore\\contactoplus\\directorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16FAB72D-FBD5-42DC-B725-8112A14175C3}|ContactosPlus.csproj|solutionrelative:directorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16FAB72D-FBD5-42DC-B725-8112A14175C3}|ContactosPlus.csproj|c:\\users\\iedep\\documents\\netcore\\contactoplus\\frmdirectoriotelefonico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16FAB72D-FBD5-42DC-B725-8112A14175C3}|ContactosPlus.csproj|solutionrelative:frmdirectoriotelefonico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16FAB72D-FBD5-42DC-B725-8112A14175C3}|ContactosPlus.csproj|c:\\users\\iedep\\documents\\netcore\\contactoplus\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16FAB72D-FBD5-42DC-B725-8112A14175C3}|ContactosPlus.csproj|solutionrelative:contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16FAB72D-FBD5-42DC-B725-8112A14175C3}|ContactosPlus.csproj|C:\\Users\\iedep\\Documents\\NetCore\\ContactoPlus\\frmdirectoriotelefonico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16FAB72D-FBD5-42DC-B725-8112A14175C3}|ContactosPlus.csproj|solutionrelative:frmdirectoriotelefonico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,28 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Directorio.cs",
-              "DocumentMoniker": "C:\\Users\\iedep\\Documents\\NetCore\\ContactoPlus\\Directorio.cs",
-              "RelativeDocumentMoniker": "Directorio.cs",
-              "ToolTip": "C:\\Users\\iedep\\Documents\\NetCore\\ContactoPlus\\Directorio.cs*",
-              "RelativeToolTip": "Directorio.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAyAAAAAAAAAA==",
+              "Title": "FrmDirectorioTelefonico.cs",
+              "DocumentMoniker": "C:\\Users\\iedep\\Documents\\NetCore\\ContactoPlus\\FrmDirectorioTelefonico.cs",
+              "RelativeDocumentMoniker": "FrmDirectorioTelefonico.cs",
+              "ToolTip": "C:\\Users\\iedep\\Documents\\NetCore\\ContactoPlus\\FrmDirectorioTelefonico.cs*",
+              "RelativeToolTip": "FrmDirectorioTelefonico.cs*",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAhwIEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-06T22:58:45.871Z",
+              "WhenOpened": "2026-06-06T23:35:42.676Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Contacto.cs",
-              "DocumentMoniker": "C:\\Users\\iedep\\Documents\\NetCore\\ContactoPlus\\Contacto.cs",
-              "RelativeDocumentMoniker": "Contacto.cs",
-              "ToolTip": "C:\\Users\\iedep\\Documents\\NetCore\\ContactoPlus\\Contacto.cs*",
-              "RelativeToolTip": "Contacto.cs*",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAQwCQAAABPAAAAAAAAAA==",
+              "Title": "FrmDirectorioTelefonico.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\iedep\\Documents\\NetCore\\ContactoPlus\\FrmDirectorioTelefonico.cs",
+              "RelativeDocumentMoniker": "FrmDirectorioTelefonico.cs",
+              "ToolTip": "C:\\Users\\iedep\\Documents\\NetCore\\ContactoPlus\\FrmDirectorioTelefonico.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "FrmDirectorioTelefonico.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-06T22:26:42.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-06T23:35:36.013Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

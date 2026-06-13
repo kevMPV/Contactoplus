@@ -172,6 +172,7 @@
             txtUsuario.Name = "txtUsuario";
             txtUsuario.Size = new Size(450, 29);
             txtUsuario.TabIndex = 3;
+            txtUsuario.TextChanged += txtUsuario_TextChanged;
             // 
             // lblPassword
             // 

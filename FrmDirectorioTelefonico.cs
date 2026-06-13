@@ -1,5 +1,7 @@
 ﻿
 
+using static System.Runtime.InteropServices.JavaScript.JSType;
+
 namespace ContactosPlus
 {
     public partial class FrmDirectorioTelefonico : Form
@@ -14,39 +16,46 @@ namespace ContactosPlus
             LimpiarFormulario();
         }
 
+        List<TextBox> componentes = new List<TextBox>();
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            string nombre = txtNombre.Text.Trim();
-            string apellidos = txtApellidos.Text.Trim();
+            foreach (TextBox componente in componentes)
+                validarTextbox(componente, "campo obligatorio");
 
-            if (nombre.Length > 0)
-            {
-                error.SetError(txtNombre, "");
-            }
+
+
+
+            /*
+            validarTextbox(txtNombre, "vrerificar tu nombre");
+            validarTextbox(txtApellidos, "verifica tus apellidos");
+            validarTextbox(txtTelefono, "verificar tu telefono");
+            validarTextbox(txtExtension, "verifica tu extencion");
+            validarTextbox(txtCargo, "verifica tu cargo");
+            validarTextbox(txtEmpresa, "verifica tu empresa");
+            validarTextbox(txtCorreo, "verfica tu correo");
+            */
+
+            /*  
+              Directorio obj = new Directorio();
+              int id= Convert.ToInt32(txtId.Text);
+
+              obj.add(id, nombre, apellidos, ...);
+              obj.show();
+               MessageBox.Show("Texto");
+           */
+        }
+
+        private void validarTextbox(TextBox txtcomp, string msgError)
+        {
+            string cuadritos = txtcomp.Text.Trim();
+            if (cuadritos.Length > 0)
+                error.SetError(txtcomp, "");
             else
-            {
-                error.SetError(txtNombre, "ingresa tu nombrer");
-            }
-           
-            //apellidos//
-            if (apellidos.Length > 0)
-            {
-                error.SetError(txtApellidos, "");
-            }
-            else
-            {
-                error.SetError(txtApellidos, "ingresa tus apellidos");
-            }
+                error.SetError(txtcomp, msgError);
 
-
-            Directorio obj = new Directorio();
-            int id= Convert.ToInt32(txtId.Text);
-            
-            obj.add(id, nombre, apellidos, ...);
-            obj.show()
-             MessageBox.Show("Texto");
 
         }
+
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
@@ -108,6 +117,23 @@ namespace ContactosPlus
             chkActivo.Checked = true;
 
             txtNombre.Focus();
+        }
+
+        private void FrmDirectorioTelefonico_Load(object sender, EventArgs e)
+        {
+            componentes.Add(txtNombre);
+            componentes.Add(txtApellidos);
+            componentes.Add(txtTelefono);
+            componentes.Add(txtExtension);
+            componentes.Add(txtCargo);
+            componentes.Add(txtEmpresa);
+            componentes.Add(txtCorreo);
+            componentes.Add(txtId);
+        }
+
+        private void FrmDirectorioTelefonico_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            MessageBox.Show("¡Noooo:/! me mori :(");
         }
     }
 }
