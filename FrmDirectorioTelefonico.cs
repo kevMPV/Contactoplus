@@ -1,11 +1,13 @@
 ﻿
 
+using ContactosPlus.claseArchivo;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ContactosPlus
 {
     public partial class FrmDirectorioTelefonico : Form
     {
+        clArchivo archivos;
         public FrmDirectorioTelefonico()
         {
             InitializeComponent();
@@ -43,6 +45,7 @@ namespace ContactosPlus
               obj.show();
                MessageBox.Show("Texto");
            */
+            clArchivo archivos = new clArchivo("directori.txt");
         }
 
         private void validarTextbox(TextBox txtcomp, string msgError)
@@ -129,6 +132,7 @@ namespace ContactosPlus
             componentes.Add(txtEmpresa);
             componentes.Add(txtCorreo);
             componentes.Add(txtId);
+           this.archivos= new clArchivo("directori.txt");
         }
 
         private void FrmDirectorioTelefonico_FormClosed(object sender, FormClosedEventArgs e)
